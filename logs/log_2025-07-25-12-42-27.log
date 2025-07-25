@@ -1,0 +1,20 @@
+[2025-07-25 12:42:27,408] logger - INFO - Flask application starting...
+[2025-07-25 12:42:27,515] werkzeug - WARNING -  * Debugger is active!
+[2025-07-25 12:42:27,520] werkzeug - INFO -  * Debugger PIN: 630-749-511
+[2025-07-25 12:42:29,555] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:42:29] "GET / HTTP/1.1" 200 -
+[2025-07-25 12:42:29,570] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:42:29] "[33mGET /static/images/A[2025-07-25 12:46:28,967] werkzeug - INFO -  * Restarting with stat
+] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:42:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-07-25 12:42:34,462] logger - INFO - Sending messages to Groq API...
+[2025-07-25 12:42:35,009] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-07-25 12:42:35,010] logger - ERROR - Error communicating with Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-07-25 12:42:35,012] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:42:35] "POST /api/chat HTTP/1.1" 200 -
+[2025-07-25 12:44:22,035] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:22] "GET / HTTP/1.1" 200 -
+[2025-07-25 12:44:22,047] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:22] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-07-25 12:44:22,049] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-07-25 12:44:26,908] logger - INFO - Sending messages to Groq API...
+[2025-07-25 12:44:27,354] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-07-25 12:44:27,355] logger - ERROR - Error communicating with Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-07-25 12:44:27,356] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:27] "POST /api/chat HTTP/1.1" 200 -
+[2025-07-25 12:44:30,580] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[2025-07-25 12:44:30,587] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:44:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-07-25 12:46:28,922] werkzeug - INFO -  * Detected change in '/Users/ravnoorsingh/Downloads/Custom-Chatgpt-Project/app/api_client.py', reloading

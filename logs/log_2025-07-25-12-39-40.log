@@ -1,0 +1,15 @@
+[2025-07-25 12:39:40,690] logger - INFO - Flask application starting...
+[2025-07-25 12:39:40,797] werkzeug - WARNING -  * Debugger is active!
+[2025-07-25 12:39:40,805] werkzeug - INFO -  * Debugger PIN: 630-749-511
+[2025-07-25 12:39:45,811] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:39:45] "GET / HTTP/1.1" 200 -
+[2025-07-25 12:39:45,822] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:39:45] "[33mGET /static/images/Apexiq-logo-whitebg.jpeg HTTP/1.1[0m" 404 -
+[2025-07-25 12:39:45,824] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:39:45] "GET /static/css/styles.css HTTP/1.1" 200 -
+[2025-07-25 12:39:45,878] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:39:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-25 12:39:54,859] logger - INFO - Sending messages to Groq API...
+[2025-07-25 12:39:55,119] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-07-25 12:39:55,120] logger - ERROR - Error communicating with Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-07-25 12:39:55,121] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:39:55] "POST /api/chat HTTP/1.1" 200 -
+[2025-07-25 12:40:09,458] logger - INFO - Sending messages to Groq API...
+[2025-07-25 12:40:09,635] httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-07-25 12:40:09,637] logger - ERROR - Error communicating with Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+[2025-07-25 12:40:09,638] werkzeug - INFO - 127.0.0.1 - - [25/Jul/2025 12:40:09] "POST /api/chat HTTP/1.1" 200 -
